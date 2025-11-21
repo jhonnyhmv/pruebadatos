@@ -1,0 +1,18 @@
+/* css styles */
+/* Forzar contenido a pantalla completa */
+body, .page-columns, .content, .main-content, #quarto-content, .quarto-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 12px !important;
+}
+
+/* Quitar centrado */
+#quarto-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
